@@ -1,5 +1,12 @@
-package src.com.java.workshop.Temperaturesensor;
+package src.com.java.workshop;
 
-public class TemperatureSensor {
+public class TemperatureSensor implements Sensor {
+    private float temperature;
 
+    public TemperatureSensor(float atemperature){
+        temperature = atemperature;
+    }
+    public float getReading(){
+        return temperature;
+    }
 }
