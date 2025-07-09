@@ -8,6 +8,6 @@ public class RegistrationTimeLeft {
         int hourLeft=registrationEndTime.getHour()-currentTime.getHour();
         int minuteLeft=registrationEndTime.getMinute()-currentTime.getMinute();
         int secondLeft=registrationEndTime.getSecond()-currentTime.getSecond();
-        System.out.print("you have"+hourLeft+"hour,"+minuteLeft+"minutes,and"+secondLeft+"seconds left to register.");
+        System.out.print("you have "+hourLeft+" hour,"+minuteLeft+" minutes,and "+secondLeft+" seconds left to register.");
     }
 }
