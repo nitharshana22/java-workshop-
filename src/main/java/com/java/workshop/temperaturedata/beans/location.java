@@ -1,4 +1,4 @@
-package src.com.java.workshop.temperaturedata.beans;
+package com.java.workshop.temperaturedata.beans;
 
 public class location {
     private String name;
@@ -59,10 +59,15 @@ public class location {
     }
     @Override
     public String toString(){
-        return"Location { name:"+name+",Latitude:"+latitude+",
-               Longitude:"+longitude+",Description:"+description+",
-               Country:"+country+",City:"+city+",
-                Address:"+address+",Postalcode"};
+        return"Location { name:"+name+
+        ",Latitude:"+latitude+
+        ",Longitude:"+longitude+
+        ",Description:"+description+
+        ",Country:"+country+
+        ",City:"+city+
+        ",Address:"+address+
+        ",Postalcode:"+postalcode+"}";
     }
-    }
+}
+    
     

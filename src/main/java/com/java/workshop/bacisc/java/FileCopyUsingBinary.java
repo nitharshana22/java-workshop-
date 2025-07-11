@@ -1,4 +1,4 @@
-package src.com.java.workshop.bacisc.java;
+package com.java.workshop.bacisc.java;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;

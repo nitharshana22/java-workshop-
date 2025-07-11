@@ -1,4 +1,4 @@
-package src.com.java.workshop;
+package com.java.workshop;
 
 public class StringBuilderExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.com.java.workshop;
+package com.java.workshop;
 import java.time.LocalTime;
 
 public class RegistrationTimeLeft {
