@@ -1,4 +1,4 @@
-package com.vetias.java.workshop.collections;
+package com.vetias.java.workshop.Collections;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Comparator;
